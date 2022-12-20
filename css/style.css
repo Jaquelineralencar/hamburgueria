@@ -1,0 +1,288 @@
+@font-face {
+    font-family: font;
+    src: url(./fonts/KottaOne-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'font';
+    color: aliceblue;
+    border: none;
+}
+
+h6 {
+    color: #111;
+}
+
+#nav {
+    font-family: font;
+    background: black;
+    border-bottom: 2px solid #111;
+    font-size: x-large;
+}
+
+#nav li {
+    display: inline;
+    padding: 3% 4%;
+}
+
+#nav #logo-url {
+    margin: auto;
+    margin-left: 0;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+}
+
+#nav a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 12px;
+    transition: .5s;
+}
+
+#nav a:hover {
+    color: #fcba03;
+}
+
+body {
+    background-image: url(./img/backgroud.png);
+    background-position-y: -150px;
+}
+
+#main-banner {
+    background-image: url('./img/banner.png');
+    background-position: 0;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.card-title {
+    color: #111;
+}
+
+#main-banner h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px 40px;
+}
+
+#footer {
+    height: 200px;
+    background-color: black;
+    border-top: 4px solid #111;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    color: aliceblue;
+    align-items: flex-end;
+    padding-left: 30%;
+}
+
+#hs {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.col {
+    padding-top: 8%;
+    padding-block-end: 5%;
+}
+
+.card-text {
+    color: #111;
+}
+
+#Cardapio {
+    text-align: center;
+    font-family: 'font';
+}
+
+#tradicionais {
+    padding: 2%;
+    text-align: center;
+}
+
+#artesanais {
+    display: inline-flex;
+    align-items: center;
+    padding: 2%;
+}
+
+#login-container {
+    background-color: rgba(19, 18, 18, 0.205);
+    color: #111;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#login-container::placeholder {
+    background-color: aliceblue;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-radius: 3%;
+    background-color: transparent;
+    color: #fff;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #a5f18e;
+
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #085588;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #1b223c;
+    transition: .5s;
+}
+
+#social-container,
+#social-container p {
+    margin-bottom: 20px;
+}
+
+#social-container i,
+.facebook,
+.gmail {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(19, 18, 18, 0.205);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+#register-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fullbox {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.halfbox {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement,
+#agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+.error-validation {
+    color: #ff1a1a;
+
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}
+
+.conhecer h1{
+    color: #c8d1f3;
+    text-align: center;
+}
+.conhecer{
+    background-color: rgba(19, 18, 18, 0.205);
+    color: #111;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
